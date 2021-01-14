@@ -49,7 +49,7 @@ const changeNav = (entries, observer) => {
 
 
 const options = {
-    threshold: .50
+    threshold: 1
 };
 
 // setup intersection observer with a callback function
