@@ -90,7 +90,7 @@ nav ul li a {
     color: #323232;
     font-weight: bold;
     border-radius: 4px;
-    transition: background-color 0.3s ease-in;
+    transition: background-color 0.1s ease-in;
 }
 
 a:hover {background-color: rgba(204, 255, 204, 0.5)}
@@ -147,6 +147,7 @@ a:active{background-color: rgba(204, 255, 204, 0.5)}
     grid-area: section_3;
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: center;
     width: 100%;
     min-height: 90vh;
@@ -155,18 +156,12 @@ a:active{background-color: rgba(204, 255, 204, 0.5)}
 }
 
 .projects {
-    justify-items: center;
     display: flex;
-    align-content: center;
+    justify-content: space-evenly;
     width: 100%;
+    flex-flow: row nowrap;
     align-items: center;
     list-style-type: none;
-}
-
-.content_image{
-  max-width: 90%;
-  max-height: 20vh;
-    margin: 2vw;
 }
 
 
